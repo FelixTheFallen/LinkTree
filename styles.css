@@ -1,0 +1,50 @@
+/*html {
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.content {
+    text-align: center;
+}
+body {
+    margin: 0;
+    background-image: url(Backgroud.png);
+    background-size: cover;
+}
+.title {
+color: purple;
+}
+.nav {
+display: flex;
+background-color: black;
+padding: 20px;
+margin: 0, auto;
+gap: 30px;
+justify-content: center;
+}
+.nav_link {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.something {
+    display: flex;
+    float: none;
+    width: 93px;
+    position: relative;
+    top: -80px
+}
+.nav_link:hover {
+    background-color: darkblue;
+}
+.nav_link:active {
+    background-color:rgb(2, 2, 82) ;
+}
+.text_p {
+    color: gray;
+    font-size: 18px;
+}
